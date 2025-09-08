@@ -41,8 +41,14 @@
   min-height: 550px;
   margin: 4% auto;
 }
-.background{
+.body{
   background-image:url("background_douhua.jpg");
+  background-repeat:no-repeat;
+  background-position:center;
+  background-size:cover;
+}
+.background{
+  background-image:url("background_card.jpg");
   background-repeat:no-repeat;
   background-position:center;
   background-size:cover;
