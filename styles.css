@@ -33,7 +33,10 @@
 
 /*body*/
 .frame {
-  background: #efe5cc;
+  background-image:url("background_card.jpg");
+  background-repeat:no-repeat;
+  background-position:center;
+  background-size:cover;
   border: black;
   box-shadow: 0 8px 25px #b3a57e;
   width: 85%;
@@ -43,12 +46,6 @@
 }
 .body{
   background-image:url("background_douhua.jpg");
-  background-repeat:no-repeat;
-  background-position:center;
-  background-size:cover;
-}
-.background{
-  background-image:url("background_card.jpg");
   background-repeat:no-repeat;
   background-position:center;
   background-size:cover;
