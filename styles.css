@@ -1,9 +1,9 @@
 .happy {
-  color: white;
+  color: #eda2aed7;
   font-family: "Lavishly Yours", cursive;
-  padding: 0;
-  margin-top: 1em;
-  font-size: 2.5em;
+  border: none;
+  margin-top: 10%;
+  font-size: 2.2em;
   font-weight: 600;
 }
 .hint {
@@ -24,11 +24,11 @@
 /*image*/
 .gift {
   display: block;
-  height: 200px;
-  width: 200px;
+  height: 150px;
+  width: 150px;
   object-fit: cover;
   position: relative;
-  top: 10%;
+  top: 15%;
 }
 
 /*body*/
