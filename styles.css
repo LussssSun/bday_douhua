@@ -32,7 +32,9 @@
 
 /*body*/
 .frame {
-  background: #f2e9d7;
+  background-image:url("background_douhua2.jpg") ;
+  background-position:center;
+  background-size:cover;
   border: #71684e;
   box-shadow: 0 8px 25px #b3a57e;
   width: 85%;
