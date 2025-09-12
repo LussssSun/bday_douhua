@@ -16,7 +16,7 @@
   </head>
 
   <body>
-    <div class="frame" id="card">
+    <div id="card "class="frame">
       <div class="container">
         <h2 class="happy">happy birthday</h2>
         <img id="Gift" class="gift" src="gift.png"/>
@@ -32,13 +32,13 @@
 
   
   <script>
-    window.addEventListener('DOMContentLoaded', () => {
-      const giftImg=document.getElementById("Gift");
-      const cardPage=document.getElementById("card")
-      giftImg.addEventListener("click",()=>{
-        cardPage.style.display="none";
-        picPage.style.display="block";
-      })
-    })  
-      </script>
+    window.addEventListener("DOMContentLoaded", () => {
+      const giftImg = document.getElementById("Gift");
+      const cardPage = document.getElementById("card");
+      giftImg.addEventListener("click", () => {
+        cardPage.style.display = "none";
+        picPage.style.display = "block";
+      });
+    });
+  </script>
 </html>
