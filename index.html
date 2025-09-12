@@ -22,6 +22,21 @@
         <img class="gift" src="gift.png"/>
         <h3 class="hint">点击</h3>
       </div>
+      <div id="picPage" class="frame" style="display: none">
+        <div class="container">
+          <h1>testing</h1>
+        </div>
+      </div>
 
   </body>
+  <script>
+    window.addEventListener('DOMContentLoaded', () => {
+      const giftImg=document.getElementById("Gift");
+      const cardPage=document.getElementById("card")
+      giftImg.addEventListener("click",()=>{
+        cardPage.style.display="none";
+        picPage.style.display="block";
+      })
+    })  
+      </script>
 </html>
