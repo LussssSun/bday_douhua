@@ -39,10 +39,10 @@ body{
 }
 .frame {
   background:
-    url("background_top.png") bottom center no-repeat,
+    url("background_top.png") top center no-repeat,
     url("background_middle.png") center repeat-y,
-    url("background_bottom.png") top center no-repeat;
-  background-size:contain, auto, contain;
+    url("background_bottom.png") bottom center no-repeat;
+  background-size:100% auto, auto, 100% auto;
   border: #71684e;
   box-shadow: 0 8px 25px #b3a57e;
   width: 85%;
