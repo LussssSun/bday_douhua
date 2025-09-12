@@ -32,7 +32,7 @@
 
 /*body*/
 body{
-  background-image:url("background_douhua2.jpg"):
+  background-image:url("background_douhua2.jpg");
   background-size:cover;
   background-position:center;
   background-repeat:no-repeay;
