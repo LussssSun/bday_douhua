@@ -19,6 +19,10 @@
   place-items: center;
   height: auto;
 }
+.containerCard{
+  padding:3% 0 33% 0;
+}
+
 
 /*image*/
 .gift {
@@ -28,6 +32,30 @@
   object-fit: cover;
   position: relative;
   top: 20%;
+}
+.img1{
+  display:block;
+  width:163px;
+  height:187px;
+  margin:auto 0 4% 13%;
+  padding-top: 15%;
+}
+.img2{  display:block;
+  height:234px;
+  width:148px;
+  margin:auto 14% 4% auto;
+}
+.img3{
+  display:block;
+  height:225px;
+  width:168px;
+  margin:auto 0 3% 11%;
+}
+.img4{
+  display:block;
+  height:225px;
+  width:168px;
+  margin:auto 13% 4% auto;
 }
 
 /*body*/
@@ -47,7 +75,6 @@ body{
   max-width: 455px;
   min-height: 550px;
   margin: 4% auto;
-  padding-bottom:5%;
 }
 .tab-content {
   display: none;
