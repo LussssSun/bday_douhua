@@ -41,7 +41,7 @@ body{
   background:
     url("background_top.png") top center no-repeat,
     url("background_bottom.png") bottom center no-repeat,
-    url("background_card2.png") center repeat-y;
+    center repeat-y;
   background-size: 100% auto,100% auto, 100% auto;
   border: #71684e;
   box-shadow: 0 8px 25px #b3a57e;
