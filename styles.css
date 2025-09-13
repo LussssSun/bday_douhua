@@ -35,7 +35,6 @@ body{
   background-image:url("background_douhua2.jpg");
   background-size:cover;
   background-position:center;
-  background-repeat:repeat-y;
 }
 .frame {
   background:
@@ -64,7 +63,7 @@ body{
 }
 .frameCardBottom{
   background:
-    url("background_bottom.png") top center no-repeat,
+    url("background_bottom.png") bottom center no-repeat,
   background-size: 100% auto;
   border: 2px #71684e;
   box-shadow: 0 8px 25px #b3a57e;
