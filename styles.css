@@ -18,7 +18,6 @@
   display: grid;
   place-items: center;
   height: auto;
-  padding-bottom:5%;
 }
 
 /*image*/
@@ -48,6 +47,7 @@ body{
   max-width: 455px;
   min-height: 550px;
   margin: 4% auto;
+  padding-bottom:5%;
 }
 .tab-content {
   display: none;
