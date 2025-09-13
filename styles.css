@@ -57,7 +57,7 @@ body{
   width: 85%;
   max-width: 455px;
   min-height: 380px;
-  margin: 4% auto;
+  margin: 4% auto 0 auto;
 
 }
 .frameCardBottom{
