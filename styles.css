@@ -58,7 +58,7 @@ body{
   max-width: 455px;
   min-height: 380px;
   margin: 4% auto 0 auto;
-
+  border-bottom: none;
 }
 .frameCardBottom{
   background: url("background_bottom.png") center no-repeat;
@@ -68,7 +68,7 @@ body{
   max-width: 455px;
   min-height: 170px;
   margin:0 auto;
-
+  border-top:none;
 }
 .tab-content {
   display: none;
