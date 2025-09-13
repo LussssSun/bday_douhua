@@ -63,7 +63,7 @@ body{
 
 }
 .frameCardBottom{
-  background: url("background_bottom.png") center no-repeat;
+  background: url("background_top.png") center no-repeat;
   background-size: 100% auto;
   border: 2px solid #71684e;
   box-shadow: 0 8px 25px #b3a57e;
