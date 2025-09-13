@@ -5,6 +5,11 @@
   margin-top: 10%;
   font-size: 2.2em;
 }
+.text{
+  color:#9e6e57;
+  font-family: "Lavishly Yours", cursive;
+  margin:10% 0 -11% 15%;
+}
 .hint {
   display: block;
   font-family: "ZCOOL XiaoWei", sans-serif;
