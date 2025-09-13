@@ -23,17 +23,13 @@
         <h3 class="hint">点击</h3>
       </div>
     </div>
-    <div id="picTop" class="frameCardMain" style="display: none">
+    <div id="pic" class="frame" style="display: none">
       <div class="container">
         <h1>testing</h1>
          <img id="Gift" class="gift" src="gift.png"/>
          <img id="Gift" class="gift" src="gift.png"/>
          <img id="Gift" class="gift" src="gift.png"/>
          <img id="Gift" class="gift" src="gift.png"/>
-      </div>
-    </div>
-    <div id="picBottom" class="frameCardBottom" style="display: none">
-      <div class="container">
       </div>
     </div>
   </body>
@@ -43,8 +39,7 @@
     window.addEventListener("DOMContentLoaded", () => {
       const giftImg = document.getElementById("Gift");
       const cardPage = document.getElementById("card"); 
-      const picPage1= document.getElementById("picTop");
-      const picPage2= document.getElementById("picBottom")
+      const picPage= document.getElementById("pic");
       giftImg.addEventListener("click", () => {
         cardPage.style.display = "none";
         picTop.style.display = "block";
