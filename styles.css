@@ -106,7 +106,7 @@
   border-top-left-radius: 24px;
 }
 .envelope{
-  display:block;
+  justify-self:end;
   height:137px;
   width:205px;
   border-radius:15px;
