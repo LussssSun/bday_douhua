@@ -18,13 +18,12 @@
   font-family: "ZCOOL XiaoWei", sans-serif;
   position: relative;
   text-align:center;
-  padding-right:3em;
+  margin-right:3em;
   color: #8b7567;
 }
 .hintEnvelope{
   display: block;
   font-family: "ZCOOL XiaoWei", sans-serif;
-  position: relative;
   color: #8b7567;
   margin-bottom:-10%;
   grid-column:1/-1;
