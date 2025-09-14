@@ -93,9 +93,16 @@
   display:block;
   height:309px;
   width:168px;
-  margin:140% 0 70% auto;
+  margin:140% 0 auto auto;
   padding-right:18%;
   border-top-left-radius: 24px;
+}
+.envelop{
+  display:block;
+  height:137px;
+  width:205px;
+  margin:auto 0 70% auto;
+  padding-right:18%;
 }
 
 /*body*/
