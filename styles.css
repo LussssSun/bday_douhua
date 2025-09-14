@@ -69,7 +69,7 @@
   display:block;
   width:163px;
   height:187px;
-  margin:auto 0 4% 13%;
+  margin:auto 0 4% 20%;
   padding-top: 15%;
   border-bottom-right-radius: 24px;
 }
@@ -84,14 +84,14 @@
   display:block;
   height:309px;
   width:168px;
-  margin:auto 0 3% 11%;
+  margin:auto 0 3% 18%;
   border-bottom-right-radius: 24px;
 }
 .img4{
   display:block;
   height:309px;
   width:168px;
-  margin:110% 13% 4% auto;
+  margin:110% 13% 40% auto;
   border-top-left-radius: 24px;
 }
 
