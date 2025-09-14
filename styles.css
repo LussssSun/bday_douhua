@@ -7,9 +7,11 @@
 }
 .text{
   color:#b08d6d45;
+  text-decoration: underline ;
   font-family: "Ballet", cursive;
   font-size: 2em;
-  margin:10% 0 -11% 33%;
+  margin:10% 0 -3% 33%;
+  padding-top: 18%;
 }
 .hint {
   display: block;
@@ -18,6 +20,25 @@
   left: 3.5em;
   color: #8b7567;
 }
+.hint_img2 {
+  font-size: 1.3em;
+  padding-inline: 1.2em;
+  text-align: center;
+  display: block;
+  font-family: "ZCOOL XiaoWei", sans-serif;
+  position: relative;
+  color: #b08d6d45;
+}
+.hint_img2_{
+  font-size: 0.8em;
+  margin:25% auto 0 0;
+  text-align: center;
+  display: block;
+  font-family: "ZCOOL XiaoWei", sans-serif;
+  position: relative;
+  color: #d2baad;
+}
+
 
 /*div*/
 .container {
@@ -26,8 +47,13 @@
   height: auto;
 }
 .containerCard{
-  padding:10% 0 33% 0;
+  display:grid;
+  place-items: center;
+  grid-template-columns: 1fr 1fr;
 }
+.card{
+  margin-top: 0%;
+ }
 
 
 /*image*/
@@ -47,7 +73,8 @@
   padding-top: 15%;
   border-bottom-right-radius: 24px;
 }
-.img2{  display:block;
+.img2{  
+  display:block;
   height:234px;
   width:148px;
   margin:auto 14% 4% auto;
@@ -64,7 +91,7 @@
   display:block;
   height:309px;
   width:168px;
-  margin:auto 13% 4% auto;
+  margin:110% 13% 4% auto;
   border-top-left-radius: 24px;
 }
 
