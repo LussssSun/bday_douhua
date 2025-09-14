@@ -53,7 +53,6 @@
 }
 .card{
   margin-top: 0%;
-  background:black;
  }
 
 
@@ -70,29 +69,30 @@
   display:block;
   width:163px;
   height:187px;
-  margin:auto 0 4% 20%;
-  padding-top: 15%;
+  margin:auto 0 4% 0;
+  padding: 15% 0 0 20%;
   border-bottom-right-radius: 24px;
 }
 .img2{  
   display:block;
   height:234px;
   width:148px;
-  margin:auto 20% 4% auto;
+  margin:auto 0 4% auto;
+  padding: 15% 20% 0 0;
   border-top-left-radius: 24px;
 }
 .img3{
   display:block;
   height:309px;
   width:168px;
-  margin:120% 0 3% 18%;
+  margin:120% 0 3% 0;
   border-bottom-right-radius: 24px;
 }
 .img4{
   display:block;
   height:309px;
   width:168px;
-  margin:110% 18% 65% auto;
+  margin:110% 0 65% auto;
   border-top-left-radius: 24px;
 }
 
