@@ -86,6 +86,7 @@
   height:309px;
   width:168px;
   margin:120% 0 3% 0;
+  padding-left:18%;
   border-bottom-right-radius: 24px;
 }
 .img4{
@@ -93,6 +94,7 @@
   height:309px;
   width:168px;
   margin:110% 0 65% auto;
+  padding-right:18%;
   border-top-left-radius: 24px;
 }
 
