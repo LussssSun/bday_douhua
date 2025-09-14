@@ -20,6 +20,14 @@
   left: 3.5em;
   color: #8b7567;
 }
+.hintEnvelope{
+  display: block;
+  font-family: "ZCOOL XiaoWei", sans-serif;
+  position: relative;
+  left: 3.5em;
+  color: #8b7567;
+  margin:bottom;
+}
 .hint_img2 {
   font-size: 1.3em;
   padding-inline: 1.2em;
