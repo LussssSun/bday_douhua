@@ -68,8 +68,11 @@
           <h2 class="hint_img2">──۶ৎ─────</h2>
           <img class="img4" src="imgChat2.jpg" />
         </div>
-        <img class="envelope" src="envelope.jpg"/>
+        <img id="letter" class="envelope" src="envelope.jpg"/>
       </div>
+    </div>
+    <div id=letterPage class="frame" style="display:none">
+      <h1>testing</h1>
     </div>
   </body>
 
@@ -79,10 +82,17 @@
       const giftImg = document.getElementById("Gift");
       const cardPage = document.getElementById("card"); 
       const picPage= document.getElementById("pic");
+      const letterPage= document.getElementById("letter");
       giftImg.addEventListener("click", () => {
         cardPage.style.display = "none";
+        letterPage.style.display="none";
         pic.style.display = "block";
       });
+      letterPage.addEventListener("click", ()=>{
+        letterPage.style.display="none";
+        pic.style.display="none;"
+        letterPage.style="block";
+      })
     });
   </script>
 </html>
