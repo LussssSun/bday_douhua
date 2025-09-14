@@ -123,6 +123,13 @@ body{
   min-height: 550px;
   margin: 4% auto;
 }
+.frameLetter{
+  background:url("letter.png"):
+  background-size:cover;
+  width:85%;
+  max-width: 455px;
+  min-height: 643px;
+}
 .tab-content {
   display: none;
 }
