@@ -27,6 +27,7 @@
   left: 3.5em;
   color: #8b7567;
   margin:bottom;
+  grid-column:1/-1;
 }
 .hint_img2 {
   font-size: 1.3em;
