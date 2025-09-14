@@ -82,14 +82,15 @@
       const giftImg = document.getElementById("Gift");
       const cardPage = document.getElementById("card"); 
       const picPage= document.getElementById("pic");
-      const letterPage= document.getElementById("letter");
+      const letterclick= document.getElementById("letter");
+      const letterPage= document.getElementById("letters");
       giftImg.addEventListener("click", () => {
         cardPage.style.display = "none";
         letterPage.style.display="none";
-        pic.style.display = "block";
+        picPage.style.display = "block";
       });
-      letter.addEventListener("click", ()=>{
-        letterPage.style.display="none";
+      letterclick.addEventListener("click", ()=>{
+        cardPage.style.display="none";
         pic.style.display="none;"
         letterPage.style="block";
       })
