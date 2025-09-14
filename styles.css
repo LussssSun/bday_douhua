@@ -129,7 +129,7 @@ body{
   width:85%;
   margin: 4% auto;
   max-width: 455px;
-  min-height: 643px;
+  min-height: 600px;
   box-shadow: 0 8px 25px #b3a57e;
 }
 .tab-content {
