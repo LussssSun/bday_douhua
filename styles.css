@@ -124,7 +124,7 @@ body{
   margin: 4% auto;
 }
 .frameLetter{
-  background:url("letter.png.png"):
+  background:url("letter.png.png");
   background-size:contain;
   width:85%;
   max-width: 455px;
