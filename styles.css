@@ -61,6 +61,7 @@
 }
 .card{
   margin-top: 0%;
+  position:relative;
  }
 
 
@@ -131,7 +132,7 @@ body{
   max-width: 455px;
   min-height: 550px;
   margin: 4% auto;
-  position:relative;
+  
 }
 .frameLetter{
   background:url("letter.png") center no-repeat;
