@@ -61,7 +61,7 @@
 }
 .card{
   margin-top: 0%;
-  position:relative;
+  
  }
 
 
@@ -113,7 +113,6 @@
   border-radius:15px;
   position:absolute;
   bottom:0;
-  left:50%;
 }
 
 /*body*/
@@ -133,6 +132,7 @@ body{
   max-width: 455px;
   min-height: 550px;
   margin: 4% auto;
+  positione:relative;
   
 }
 .frameLetter{
