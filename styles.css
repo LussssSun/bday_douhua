@@ -108,7 +108,7 @@
 }
 .envelope{
   display:block;
-  margin:10% 0 70% 0;
+  justify-self:bottom;
   height:137px;
   width:205px;
   border-radius:15px;
