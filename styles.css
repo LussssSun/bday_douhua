@@ -108,11 +108,12 @@
 }
 .envelope{
   display:block;
-  justify-self:bottom;
   height:137px;
   width:205px;
   border-radius:15px;
   position:absolute;
+  bottom:0;
+  left:50%;
 }
 
 /*body*/
