@@ -21,6 +21,8 @@
 
   <body>
     <div id="cardCake" class="frame">
+      <div class="flame" id="flame"></div>
+      <button id="Lit">Lit</button>
       <div class="container">
         <h2 class="happy">happy birthday</h2>
         <img id="cake" class="gift" src="cake2.png"/>
@@ -112,5 +114,10 @@
         letterPage.style.display="block";
       });
     });
+      const btn = document.getElementById("Lit");
+      const candle = document.getElementById("candle");
+      btn.addEventListener("click", () => {
+        candle.classList.toggle("lit");
+      });
   </script>
 </html>
