@@ -20,11 +20,13 @@
   </head>
 
   <body>
-    <div id="card" class="frame">
+    <div id="cardCake" class="frame">
       <div class="container">
         <h2 class="happy">happy birthday</h2>
         <img id="Gift" class="gift" src="cake2.png"/>
+        
         <h3 class="hint">点击</h3>
+        <button id="forward" class="arraw">▶</button>
       </div>
     </div>
     <div id="card" class="frame">
@@ -45,9 +47,9 @@
           <h2 class="hint_img2">────۶ৎ────</h2>
           <img class="img3" src="imgChat1.jpg" />
           <h2 class="hint_img2_">          ⠀⠀⠀⠀⠀⠀⠀⠀⣠⣶⣶⣶⣦⠀⠀
-            ⠀⠀⣠⣤⣤⣄⣀⣾⣿⠟⠛⠻⣿⣿⠀
-            ⢰⣿⡿⠛⠙⠻⣾⣿⠁⠀⠀⠀⣴⣿⡇
-            ⢿⣿⣇⠀⠀⠀⠈⠏⠀⠀⠀⠀⣿⣿⡇
+            ⠀⠀⣠⣤⣤⣄⣀⣾⣿⠟⠛⠻⣿⣿⠀</br>
+            ⢰⣿⡿⠛⠙⠻⣾⣿⠁⠀⠀⠀⣴⣿⡇</br>
+            ⢿⣿⣇⠀⠀⠀⠈⠏⠀⠀⠀⠀⣿⣿⡇</br>
             ⠀⠻⣿⣷⣦⣤⣀⠀⠀⠀⠀⣾⡿⠋</br>⠀
             ⠀⠀⠀⠀⠉⠉⠻⣿⣄⣴⣿⠟</br>⠀⠀⠀
             ⠀⠀⠀⠀⠀⠀⠀⣿⡿⠟⠁</br>
@@ -92,12 +94,21 @@
       const picPage= document.getElementById("pic");
       const letterclick= document.getElementById("letter");
       const letterPage= document.getElementById("letters");
+      const cakePage= document.getElementById("cardCake");
+      forward.addEventListener("click,"() =>{
+        cardCake.style.display = "none";
+        letterPage.style.display="none";
+        picPage.style.display="none";
+        cardPage.style.display = "block";
+      })
       giftImg.addEventListener("click", () => {
+        cardCake.style.display = "none";
         cardPage.style.display = "none";
         letterPage.style.display="none";
         picPage.style.display = "block";
       });
       letterclick.addEventListener("click", ()=>{
+        cardCake.style.display = "none";
         cardPage.style.display="none";
         picPage.style.display="none";
         letterPage.style.display="block";
