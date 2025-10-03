@@ -79,6 +79,14 @@
   position: relative;
   top: 20%;
 }
+.cake{
+  display: block;
+  height: 150px;
+  width: 200px;
+  object-fit: retain;
+  position: relative;
+  top: 35%;
+}
 .img1{
   display:block;
   width:163px;
