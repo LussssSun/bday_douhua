@@ -48,6 +48,8 @@
 }
 .flame {
   position:absolute;
+  top:0;
+  left:50%;
   top: -30px;
   left: 50%;
   width: 20px;
