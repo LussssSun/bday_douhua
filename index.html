@@ -23,7 +23,7 @@
     <div id="cardCake" class="frame">
       <div class="container">
         <h2 class="happy">happy birthday</h2>
-        <img id="Gift" class="gift" src="cake2.png"/>
+        <img id="cake" class="gift" src="cake2.png"/>
         <button id="forward" class="arraw">▶</button>
       </div>
     </div>
@@ -94,19 +94,19 @@
       const letterPage= document.getElementById("letters");
       const cakePage= document.getElementById("cardCake");
       forward.addEventListener("click",() =>{
-        cardCake.style.display="none";
+        cakePage.style.display="none";
         letterPage.style.display="none";
         picPage.style.display="none";
         cardPage.style.display = "block";
       });
       giftImg.addEventListener("click", () => {
-        cardCake.style.display = "none";
+        cakePage.style.display = "none";
         cardPage.style.display = "none";
         letterPage.style.display="none";
         picPage.style.display = "block";
       });
       letterclick.addEventListener("click", ()=>{
-        cardCake.style.display = "none";
+        cakePage.style.display = "none";
         cardPage.style.display="none";
         picPage.style.display="none";
         letterPage.style.display="block";
