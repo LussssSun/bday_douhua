@@ -108,8 +108,10 @@
   position: relative;
   top: 20%;
 }
-.cake{
+.cakeContainer{
   position:relative;
+}
+.cake{
   display: block;
   height: 150px;
   width: 200px;
