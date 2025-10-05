@@ -109,11 +109,16 @@
   top: 20%;
 }
 .cake{
-  position: relative;
   display: block;
   height: 150px;
   width: 200px;
   object-fit:contain ;
+  top: 35%;
+}
+.containerCake{
+  position:relative;
+  height:150px;
+  width:200px;
   top: 35%;
 }
 .img1{
