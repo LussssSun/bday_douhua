@@ -118,48 +118,49 @@
       });
     });
     
-  function fadeIn(audio, duration = 2000) {
-    audio.volume = 0;
-    audio.play();
-    const step = 0.05;
-    const interval = duration * step / 1;
-    let vol = 0;
-    const fade = setInterval(() => {
-      vol += step;
-      if (vol >= 1) {
-        vol = 1;
-        clearInterval(fade);
-      }
-      audio.volume = vol;
-    }, interval);
-  }
+const btn = document.getElementById("Lit");
+const flameid = document.getElementById("flame");
+const music = document.getElementById("audio");
 
-  function fadeOut(audio, duration = 4500) {
-    const step = 0.05;
-    const interval = duration * step / 1;
-    let vol = audio.volume;
-    const fade = setInterval(() => {
-      vol -= step;
-      if (vol <= 0) {
-        vol = 0;
-        audio.pause();
-        clearInterval(fade);
-      }
-      audio.volume = vol;
-    }, interval);
+function fadeIn(audio, duration = 2000) {
+  audio.volume = 0;
+  audio.play();
+  const step = 0.05;
+  const interval = duration * step; // 这里保证步长和持续时间匹配
+  let vol = 0;
+  const fade = setInterval(() => {
+    vol += step;
+    if (vol >= 1) {
+      vol = 1;
+      clearInterval(fade);
+    }
+    audio.volume = vol;
+  }, interval);
+}
+
+function fadeOut(audio, duration = 4500) {
+  const step = 0.05;
+  const interval = duration * step;
+  let vol = audio.volume;
+  const fade = setInterval(() => {
+    vol -= step;
+    if (vol <= 0) {
+      vol = 0;
+      audio.pause();
+      clearInterval(fade);
+    }
+    audio.volume = vol;
+  }, interval);
+}
+
+// 只绑定一次 ended
+music.addEventListener("ended", () => fadeOut(music, 2000));
+
+btn.addEventListener("click", () => {
+  flameid.classList.toggle("lit");
+  if (flameid.classList.contains("lit")) {
+    fadeIn(music, 2000);
   }
-      const btn = document.getElementById("Lit");
-      const flameid = document.getElementById("flame");
-      const music= document.getElementById("audio");
-      btn.addEventListener("click", () => {
-        flameid.classList.toggle("lit");
-        if(flame.classList.contains("lit")){
-          music.play();
-          fadeIn(music, 2000);
-        }
-        music.addEventListener("ended", () => {
-          fadeOut(music, 2000);
-        });
-      });
+});
   </script>
 </html>
