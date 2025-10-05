@@ -106,7 +106,7 @@
 }
 
 .switch {
-  width: 20px; /* 按钮窄一点，竖向 */
+  width: 22px; /* 按钮窄一点，竖向 */
   height: 35px; /* 按钮高一点 */
   background-color: #fff;
   border: 2px solid #ccc;
@@ -131,7 +131,7 @@
 
 /* 开灯状态，小球向下移动 */
 .switch.on::after {
-  transform: translateY(30px);
+  transform: translateY(17px);
 }
 
 
