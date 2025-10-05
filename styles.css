@@ -49,10 +49,10 @@
 .flame {
   position: absolute;
   left: 50%;
-  top:0;
+  top:-3%;
   transform: translateX(-50%);
-  width: 13px;
-  height: 18px;
+  width: 16px;
+  height: 20px;
   background: radial-gradient(
     circle at 50% 70%,
     yellow 20%,
