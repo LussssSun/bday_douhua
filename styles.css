@@ -106,8 +106,8 @@
 }
 
 .switch {
-  width: 35px; /* 按钮窄一点，竖向 */
-  height: 60px; /* 按钮高一点 */
+  width: 20px; /* 按钮窄一点，竖向 */
+  height: 35px; /* 按钮高一点 */
   background-color: #fff;
   border: 2px solid #ccc;
   border-radius: 15px;
@@ -120,10 +120,10 @@
 .switch::after {
   content: "";
   position: absolute;
-  left: 3px;
-  top: 3px;
-  width: 24px;
-  height: 24px;
+  left: 0;
+  top: 0;
+  width: 17px;
+  height: 15px;
   background-color: #ffeb3b; /* 黄色表示灯泡 */
   border-radius: 50%;
   transition: transform 0.3s;
