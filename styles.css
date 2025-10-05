@@ -90,13 +90,13 @@
   position:absolute;
   bottom: -83%;
   right: 0;
-  color: rgba(255, 244, 240, 0.788);
+  color: #ede5d2;
   max-height: 1.3em;
   max-width: 2em;
   line-height: 1;
   font-size: 3em;
-  background-color: rgba(232, 190, 190, 0.873);
-  border: 3px solid rgba(255, 244, 240, 0.788);
+  background-color: #dabca9;
+  border: 3px solid #ede5d2;
   border-radius: 12px;
 }
 .switch-container {
@@ -124,7 +124,7 @@
   top: 0;
   width: 17px;
   height: 15px;
-  background-color: #ffeb3b; /* 黄色表示灯泡 */
+  background-color: #e3dac6; /* 黄色表示灯泡 */
   border-radius: 50%;
   transition: transform 0.3s;
 }
