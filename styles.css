@@ -48,8 +48,8 @@
 }
 .flame {
   position:relative;
-  display:flex;
-  justify-content:centre;
+  display:block;
+  margin:0 auto;
   padding-top:50%;
   width: 20px;
   height: 30px;
