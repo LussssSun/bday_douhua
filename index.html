@@ -27,7 +27,9 @@
         <div class="candle-container">
           <div class="flame" id="flame"></div>
           <img class="cake" src="cake2.png"/>
-          <button id="Lit">Lit</button>
+          <div class="switch-container">
+            <button id="Lit" class="switch"></button>
+          </div>
         </div>
         <button id="forward" class="arraw">▶</button>
       </div>
@@ -158,6 +160,7 @@ music.addEventListener("ended", () => fadeOut(music, 2000));
 
 btn.addEventListener("click", () => {
   flameid.classList.toggle("lit");
+  btn.classList.toggle("on");
   if (flameid.classList.contains("lit")) {
     fadeIn(music, 2000);
   }
