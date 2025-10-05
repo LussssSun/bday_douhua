@@ -73,12 +73,12 @@
 
 /*div*/
 .container {
-  position:relative;
   display: grid;
   place-items: center;
   height: auto;
 }
 .containerCard{
+  position:relative;
   display:grid;
   place-items: center;
   grid-template-columns: 1fr 1fr;
