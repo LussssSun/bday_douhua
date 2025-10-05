@@ -22,6 +22,7 @@
   color: #8b7567;
 }
 .hintEnvelope{
+  position:relative;
   display: block;
   font-family: "ZCOOL XiaoWei", sans-serif;
   color: #8b7567;
@@ -189,12 +190,15 @@
   padding-right:18%;
   border-top-left-radius: 24px;
 }
+
 .envelope{
+  position:absolute;
+  top:0;
+  left:50%;
   display:block;
   height:137px;
   width:205px;
   border-radius:15px;
-  position:absolute;
   bottom:0;
   margin-top:-40%;
 }
