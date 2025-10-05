@@ -47,9 +47,8 @@
   color: #d2baad;
 }
 .flame {
-  position:absolute;
-  left:50%;
-  bottom:-50%;
+  position:relative;
+  top: 35%;
   width: 20px;
   height: 30px;
   background: radial-gradient(
@@ -109,14 +108,13 @@
   top: 20%;
 }
 .cake{
+  position:absolute;
   display: block;
   height: 150px;
   width: 200px;
   object-fit:contain ;
-  top: 35%;
 }
 .containerCake{
-  position:relative;
   height:150px;
   width:200px;
   top: 35%;
