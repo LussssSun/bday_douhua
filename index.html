@@ -21,6 +21,7 @@
 
   <body>
     <div id="cardCake" class="frame">
+      <audio id="audio" src="happy birthday.m4a"></audio>
       <div class="container">
         <h2 class="happy">happy birthday</h2>
         <div class="candle-container">
@@ -118,8 +119,12 @@
     });
       const btn = document.getElementById("Lit");
       const flameid = document.getElementById("flame");
+      const music= document.getElementById("audio");
       btn.addEventListener("click", () => {
         flameid.classList.toggle("lit");
+        if(flame.classList.contains("lit")){
+          music.play();
+        }
       });
   </script>
 </html>
