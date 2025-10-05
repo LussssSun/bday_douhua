@@ -118,7 +118,7 @@
       });
     });
     
-  function fadeIn(audio, duration = 1000) {
+  function fadeIn(audio, duration = 2000) {
     audio.volume = 0;
     audio.play();
     const step = 0.05;
@@ -134,7 +134,7 @@
     }, interval);
   }
 
-  function fadeOut(audio, duration = 1000) {
+  function fadeOut(audio, duration = 4500) {
     const step = 0.05;
     const interval = duration * step / 1;
     let vol = audio.volume;
