@@ -109,7 +109,7 @@
 }
 .cake{
   position:absolute;
-  transform:translate(100%,-40px);
+  margin-top:-130;
   bottom:0;
   display: block;
   height: 150px;
