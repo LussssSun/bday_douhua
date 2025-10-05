@@ -108,15 +108,12 @@
   position: relative;
   top: 20%;
 }
-.cakeContainer{
-  position:relative;
-}
 .cake{
+  position: relative;
   display: block;
   height: 150px;
   width: 200px;
   object-fit:contain ;
-  position: relative;
   top: 35%;
 }
 .img1{
