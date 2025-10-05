@@ -96,7 +96,7 @@
   line-height: 1;
   font-size: 3em;
   background-color: #dabca9;
-  border: 3px solid #ede5d2;
+  border: 3px solid #f7f1e4;
   border-radius: 12px;
 }
 .switch-container {
@@ -109,7 +109,7 @@
   width: 22px; /* 按钮窄一点，竖向 */
   height: 35px; /* 按钮高一点 */
   background-color: #fff;
-  border: 2px solid #ccc;
+  border: 2px solid #c5b5b5;
   border-radius: 15px;
   position: relative;
   cursor: pointer;
@@ -124,7 +124,7 @@
   top: 0;
   width: 17px;
   height: 15px;
-  background-color: #e3dac6; /* 黄色表示灯泡 */
+  background-color:#d8ceb8; /* 黄色表示灯泡 */
   border-radius: 50%;
   transition: transform 0.3s;
 }
